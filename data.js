@@ -1,4 +1,4 @@
-let movies = [
+const movies = [
   {
     title: 'The Shawshank Redemption',
     year: '1994',
@@ -1999,4 +1999,6 @@ let movies = [
     genre: ['Comedy', 'Drama'],
     rate: '8.0'
   }
-];
+]
+
+module.exports = movies
